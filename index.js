@@ -48,10 +48,10 @@ app.use(express.json());
   //   });
   // }
 
-  // var token = jwt.sign({ username: username }, "shhhhh");
-  // return res.json({
-  //   token,
-  // });
+  var token = jwt.sign({ username: username }, "shhhhh");
+  return res.json({
+    token,
+  });
 });
 
 // app.get("/users", function (req, res) {
@@ -66,5 +66,8 @@ app.use(express.json());
 //     });
 //   }
 // });
+
+
+
 
 app.listen(3000);
