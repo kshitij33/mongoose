@@ -1,3 +1,8 @@
+// jtw.sign({
+//   "name": "Kshitij",
+//   expiresAt: new Date().getTime() + 3600
+// })
+
 const express = require("express");
 // const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
